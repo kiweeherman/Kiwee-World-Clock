@@ -35,8 +35,8 @@ div {
   row-gap: 15px;
   width: 50%;
   margin: 0 auto;
-  min-width: 350px;
-  max-width: 500px;
+  min-width: 550px;
+  max-width: 600px;
 }
 .center {
   text-align: center;
