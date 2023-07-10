@@ -11,6 +11,8 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="src/style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.43/moment-timezone-with-data-1970-2030.min.js"></script>
   </head>
   <body>
     <h1 class="center">World Clock</h1>
@@ -35,24 +37,24 @@
       </div>
       <div class="city fun2">
         <div>
-          <h2>Tokyo</h2>
-          <div class="date">July 9, 2023</div>
+          <h2>New York</h2>
+          <div class="date" id="new-york-date">July 20, 2021</div>
         </div>
-        <div class="time">7:25:50 PM</div>
+        <div class="time" id="new-york-time">7:25:50 PM</div>
       </div>
       <div class="city fun3">
         <div>
-          <h2>Sydney</h2>
-          <div class="date">July 9, 2023</div>
+          <h2>Tokyo</h2>
+          <div class="date" id="tokyo-date">January 1, 2000</div>
         </div>
-        <div class="time">7:25:50 PM</div>
+        <div class="time" id="tokyo-time">7:25:50 PM</div>
       </div>
       <div class="city fun4">
         <div>
-          <h2>Los Angeles</h2>
-          <div class="date">July 9, 2023</div>
+          <h2>London</h2>
+          <div class="date" id="london-date">January 1, 2000</div>
         </div>
-        <div class="time">7:25:50 PM</div>
+        <div class="time" id="london-time">7:25:50 PM</div>
       </div>
     </div>
     <br />
@@ -66,5 +68,6 @@
         >Github</a
       >
     </footer>
+    <script src="src/action.js"></script>
   </body>
 </html>
