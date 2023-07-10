@@ -3,7 +3,7 @@ footer {
 }
 body {
   background-color: #3d3e3c;
-  color: aliceblue;
+  color: rgb(235, 227, 213);
 }
 a {
   color: aqua;
@@ -14,13 +14,29 @@ select {
   padding: 10px;
   background-color: #f19ecc;
   border-radius: 10px;
+  box-shadow: 10px 10px 20px rgba(6, 0, 0, 0.3);
+}
+h1 {
+  font-family: "DM Serif Display", serif;
+  font-size: 50px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-shadow: 5px 5px 10px rgba(6, 1, 38, 0.4);
+}
+h2 {
+  font-family: "DM Serif Display", serif;
+}
+div {
+  font-family: "Archivo Narrow", sans-serif;
 }
 .container {
   display: grid;
-  color: #3d3e3c;
+  color: #22211f;
   row-gap: 15px;
   width: 50%;
   margin: 0 auto;
+  min-width: 350px;
+  max-width: 500px;
 }
 .center {
   text-align: center;
@@ -32,16 +48,34 @@ select {
 .fun4 {
   padding: 10px;
   border-radius: 20px;
+  box-shadow: 10px 10px 20px rgba(6, 0, 0, 0.3);
 }
 .fun1 {
-  background-color: #f5c5fa;
+  background-color: #fad0ff;
+  border: solid #f6a6ff;
+  border-width: 3px;
 }
 .fun2 {
-  background-color: #cfa1b7;
+  background-color: #dbabc2;
 }
 .fun3 {
-  background-color: #ca7ba1;
+  background-color: #df98ba;
 }
 .fun4 {
   background-color: #e4b1cd;
+}
+.city {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+}
+.time {
+  font-size: 35px;
+  vertical-align: middle;
+  margin-top: 35px;
+  margin-right: 5px;
+  font-weight: bold;
+}
+.date {
+  font-size: 20px;
 }
