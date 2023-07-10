@@ -1,3 +1,47 @@
 footer {
   text-align: center;
 }
+body {
+  background-color: #3d3e3c;
+  color: aliceblue;
+}
+a {
+  color: aqua;
+}
+select {
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #f19ecc;
+  border-radius: 10px;
+}
+.container {
+  display: grid;
+  color: #3d3e3c;
+  row-gap: 15px;
+  width: 50%;
+  margin: 0 auto;
+}
+.center {
+  text-align: center;
+}
+
+.fun1,
+.fun2,
+.fun3,
+.fun4 {
+  padding: 10px;
+  border-radius: 20px;
+}
+.fun1 {
+  background-color: #f5c5fa;
+}
+.fun2 {
+  background-color: #cfa1b7;
+}
+.fun3 {
+  background-color: #ca7ba1;
+}
+.fun4 {
+  background-color: #e4b1cd;
+}
